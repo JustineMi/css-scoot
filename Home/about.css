@@ -1,0 +1,175 @@
+/* GENERAL */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* MOBILE */
+@media screen and (min-width:0px) and (max-width:768px) {
+    
+}
+
+/* TABLETTE */
+@media screen and (min-width:768px) and (max-width:1440px) {
+    
+}
+
+/* DESKTOP */
+@media screen and (min-width:768px) and (max-width:2000px) {
+    body{
+        margin: 0 auto;
+    }
+
+    .container-header{
+        max-width: 1110px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 96px;
+    }
+    .title-scoot-header{
+        font-family: 'Space Mono';
+        color: #495567;
+    }
+    .nav-header{
+        font-family: 'Space Mono';
+        .a {
+        text-decoration: none;
+        color: #939CAA;
+    }
+    }
+    .header-gauche{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .get-scootin-button{
+        width: 180px;
+        height: 53px;
+        border: none;
+        background-color: #FCB72B;
+        color: white;
+        .a-button{
+            color: white;
+            text-decoration: none;
+            font-family: 'Space Mono';
+        }
+    }
+    .get-scootin-button:hover{
+        cursor: pointer;
+        background-color: white;
+        border: solid 2px #FCB72B;
+        color: #FCB72B;
+    }
+/* BANNER */
+    .container-banner{
+        height: 200px;
+    }
+    .title-about{
+        font-family: 'Space Mono';
+        color: white;
+        font-size: 56px;
+        position: absolute;
+        margin-left: 13.5%;
+        margin-top: 4%;
+    }
+
+/* MAIN */
+    .title-mobility, .title-better, .title-values, .title-faqs{
+        font-family: 'Space Mono';
+        font-size: 48px;
+        color: #495567;
+    }
+    .subtext-mobility, .subtext-better, .subtext-tech, .subtext-integrity, .subtext-community {
+        font-family: 'Lexend Deca';
+        font-size: 15px;
+        color: #939CAA;
+    }
+    .subtitle-tech, .subtitle-integrity, .subtitle-community{
+        font-family: 'Space Mono';
+        font-size: 24px;
+        color: #495567;
+
+    }
+
+
+    .container-mobility{
+        display: flex;
+        flex-direction: row;
+    }
+    .mask-mobility{
+        width: 445px;
+        height: 445px;
+        position: absolute;
+        left: 1339px;
+        top: 416px;
+    }
+    .img-mobility{
+        width: 445px;
+        height: 445px;
+    }
+    .fleche-vers-gauche{
+        width: 735px;
+        height: 139px;
+        float: right;
+    }
+
+
+
+
+/* FOOTER */
+    .container-banner-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 300px;
+        background-color: #495567;
+        background-image: url(assets/last\ circle\ footer.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+    .text-banner-footer{
+        height: 96px;
+        width: 450px;
+    }
+    .title-banner-footer{
+        font-size: 48px;
+        font-family: 'Space Mono';
+        color: white;
+    }
+    .icon-banner-footer{
+        width: 359px;
+        height: 56px;
+    }
+
+    .container-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 96px;
+        background-color: #333A44;
+    }
+    .footer-gauche{
+        width: 417px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .title-scoot{
+        color: white;
+        font-family: 'Space Mono';
+    }
+    .b {
+        font-family: 'Space Mono';
+        text-decoration: none;
+        color: #939CAA;
+        font-size: 15px;
+    }
+}
